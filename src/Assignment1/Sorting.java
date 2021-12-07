@@ -8,7 +8,6 @@ class Sorting {
         System.out.print("enter a number of strings n:");
         int n = s.nextInt();
         String[] str = new String[n];
-        System.out.println();
         System.out.print("enter the strings");
         for(int i =0;i<n;i++){
             str[i] = new String(s.next());
